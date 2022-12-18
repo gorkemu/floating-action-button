@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.iconbutton {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.iconbutton i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgb(29, 155, 240);
+}
+
+.plusbutton {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(29, 155, 240);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.plusbutton i {
+  color: white;
+}
+
+.options {
+  list-style-type: none;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  display: none;
+}
+
+.options li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.btn-label {
+  align-self: center;
+  margin-right: 20px;
+  border-radius: 3px;
+  user-select: none;
+}
+
+.visible {
+  display: block;
+}
